@@ -3,7 +3,7 @@
 .idea/
 
 #Build folder
-build/
+dist/
 
 # Logs
 logs
