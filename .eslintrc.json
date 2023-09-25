@@ -5,14 +5,16 @@
     },
     "extends": [
         "standard-with-typescript",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "plugin:i18next/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "i18next"
     ],
     "rules": {
         "@typescript-eslint/prefer-nullish-coalescing": 0,
@@ -25,7 +27,11 @@
         "@typescript-eslint/no-unused-vars": 1,
         "@typescript-eslint/strict-boolean-expressions": 0,
         "@typescript-eslint/naming-convention": 1,
-        "@typescript-eslint/no-floating-promises": 1
+        "@typescript-eslint/no-floating-promises": 1,
+        "@typescript-eslint/no-misused-promises": 0,
+        "@typescript-eslint/no-redeclare": 1,
+        "@typescript-eslint/promise-function-async": 1,
+        "i18next/no-literal-string": 2
     },
     "globals": {
         "__IS_DEV__": true
