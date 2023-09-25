@@ -7,6 +7,7 @@ This is not a production-ready project, it's my pet project without a specific n
 * Added Routing with lazy loading
 * Added themes on the project
 * Added internalization on the project
+* Configured ESLint
 * TODO
 
 ## Technologies used:
@@ -14,6 +15,7 @@ This is not a production-ready project, it's my pet project without a specific n
 * React
 * TypeScript
 * i18n
+* ESLint
 * TODO
 
 
