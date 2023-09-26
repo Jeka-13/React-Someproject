@@ -11,6 +11,7 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "strictNullChecks": false,
+    "types": ["node", "jest", "@testing-library/jest-dom"],
     "paths": {
       "*": ["./src/*"]
     }
