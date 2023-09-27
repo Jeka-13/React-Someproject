@@ -1,5 +1,4 @@
 import type { Config } from 'jest'
-import path from "path";
 
 const config: Config = {
   // automock: false,
@@ -29,8 +28,8 @@ const config: Config = {
   ],
   setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
   moduleNameMapper: {
-    '\\.s?css$': 'identity-obj-proxy',
-    '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
+    '\\.(scss|less|css)$': 'identity-obj-proxy',
+    '\\.svg': '<rootDir>/config/jest/jestEmptyComponent.tsx',
   },
 
   // collectCoverage: false,

@@ -9,6 +9,7 @@ This is not a production-ready project, it's my pet project without a specific n
 * Added internalization on the project
 * Configured ESLint & Stylelint
 * Wrote Unit tests
+* Configured React testing library and Storybook
 * TODO
 
 ## Technologies used:
@@ -18,6 +19,8 @@ This is not a production-ready project, it's my pet project without a specific n
 * i18n
 * ESLint & Stylelint
 * Jest
+* React testing library
+* Storybook
 * TODO
 
 
