@@ -46,7 +46,8 @@
         "@typescript-eslint/promise-function-async": 1,
         "i18next/no-literal-string": 2,
         "n/handle-callback-err": 0,
-        "react/no-deprecated": 1
+        "react/no-deprecated": 1,
+        "no-return-assign": 0
     },
     "globals": {
         "__IS_DEV__": true
