@@ -50,7 +50,9 @@
         "react/no-deprecated": 1,
         "no-return-assign": 0,
         "react-hooks/rules-of-hooks": 2,
-        "react-hooks/exhaustive-deps": 2
+        "react-hooks/exhaustive-deps": 2,
+        "@typescript-eslint/no-var-requires": 0,
+        "promise/param-names": 0
     },
     "globals": {
         "__IS_DEV__": true
