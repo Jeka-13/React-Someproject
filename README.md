@@ -10,6 +10,7 @@ This is not a production-ready project, it's my pet project without a specific n
 * Configured ESLint & Stylelint
 * Wrote Unit tests
 * Configured React testing library and Storybook
+* Add CI using GitHub Actions
 * TODO
 
 ## Technologies used:
@@ -21,6 +22,7 @@ This is not a production-ready project, it's my pet project without a specific n
 * Jest
 * React testing library
 * Storybook
+* GitHub Actions
 * TODO
 
 
