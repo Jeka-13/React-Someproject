@@ -1,18 +1,18 @@
-import {screen, fireEvent} from "@testing-library/react";
-import {Sidebar} from "widgets/Sidebar";
-import {renderWithTranslation} from "shared/lib/tests/renderWithTranslation/renderWithTranslation";
+import { screen, fireEvent } from '@testing-library/react'
+import { Sidebar } from 'widgets/Sidebar'
+import { componentRouter } from 'shared/lib/tests/componentRouter/componentRouter'
 
 describe('Sidebar', () => {
-    test('Sidebar render', () => {
-        renderWithTranslation(<Sidebar/>);
-        expect(screen.getByTestId('sidebar')).toBeInTheDocument();
-    })
+  test('Sidebar render', () => {
+    componentRouter(<Sidebar/>, { route: '/' })
+    expect(screen.getByTestId('sidebar')).toBeInTheDocument()
+  })
 
-    test('Sidebar toggle', () => {
-        renderWithTranslation(<Sidebar/>);
-        const toggleBtn = screen.getByTestId('sidebar-toggle');
-        expect(screen.getByTestId('sidebar')).toBeInTheDocument();
-        fireEvent.click(toggleBtn);
-        expect(screen.getByTestId('sidebar')).toHaveClass('collapsed');
-    })
+  test('Sidebar toggle', () => {
+    componentRouter(<Sidebar/>, { route: '/' })
+    const toggleBtn = screen.getByTestId('sidebar-toggle')
+    expect(screen.getByTestId('sidebar')).toBeInTheDocument()
+    fireEvent.click(toggleBtn)
+    expect(screen.getByTestId('sidebar')).toHaveClass('collapsed')
+  })
 })
