@@ -11,6 +11,7 @@ This is not a production-ready project, it's my pet project without a specific n
 * Wrote Unit tests
 * Configured React testing library and Storybook
 * Add CI using GitHub Actions
+* Add Redux toolkit
 * TODO
 
 ## Technologies used:
@@ -23,6 +24,7 @@ This is not a production-ready project, it's my pet project without a specific n
 * React testing library
 * Storybook
 * GitHub Actions
+* Redux toolkit
 * TODO
 
 
