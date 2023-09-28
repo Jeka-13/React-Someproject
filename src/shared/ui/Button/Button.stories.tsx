@@ -5,9 +5,7 @@ import {Button, ThemeButton} from './Button';
 const meta = {
     title: 'shared/Button',
     component: Button,
-    argTypes: {
-
-    },
+    argTypes: {},
 } satisfies Meta<typeof Button>;
 
 export default meta;
