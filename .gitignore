@@ -4,6 +4,8 @@
 
 #Build folder
 dist/
+storybook-static/
+.DS_Store
 
 # Logs
 logs
