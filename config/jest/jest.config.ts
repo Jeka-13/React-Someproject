@@ -29,8 +29,8 @@ const config: Config = {
   setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
   moduleNameMapper: {
     '\\.(scss|less|css)$': 'identity-obj-proxy',
-    '\\.svg': '<rootDir>/config/jest/jestEmptyComponent.tsx',
-  },
+    '\\.svg': '<rootDir>/config/jest/jestEmptyComponent.tsx'
+  }
 
   // collectCoverage: false,
 
