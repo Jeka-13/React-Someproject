@@ -7,5 +7,8 @@
   "Main": "Main",
   "About": "About",
   "Enter username": "Enter username",
-  "Enter password": "Enter password"
+  "Enter password": "Enter password",
+  "Authorization": "Authorization",
+  "Logout": "Logout",
+  "Login": "Login"
 }

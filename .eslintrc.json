@@ -52,7 +52,8 @@
         "react-hooks/rules-of-hooks": 2,
         "react-hooks/exhaustive-deps": 2,
         "@typescript-eslint/no-var-requires": 0,
-        "promise/param-names": 0
+        "promise/param-names": 0,
+        "@typescript-eslint/ban-ts-comment": 0
     },
     "globals": {
         "__IS_DEV__": true

@@ -1,10 +1,12 @@
 {
   "About": "About",
   "An error occurred": "An error occurred",
+  "Authorization": "Authorization",
   "Enter password": "Enter password",
   "Enter username": "Enter username",
   "Language": "Language",
   "Login": "Login",
+  "Logout": "Logout",
   "Main": "Main",
   "Not found": "Not found",
   "Refresh the page": "Refresh the page",

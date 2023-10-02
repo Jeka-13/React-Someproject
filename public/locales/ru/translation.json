@@ -7,5 +7,8 @@
   "Main": "Главная",
   "About": "О нас",
   "Enter username": "Введите логин",
-  "Enter password": "Введите пароль"
+  "Enter password": "Введите пароль",
+  "Authorization": "Авторизация",
+  "Logout": "Выйти",
+  "Login": "Войти"
 }
